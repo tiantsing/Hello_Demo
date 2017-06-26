@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+        
+        <include
+            android:id="@+id/i1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_title" />
+        <View
+            android:id="@+id/v1"
+            android:layout_below="@+id/i1"
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="2px" />
+    <RelativeLayout
+        android:id="@+id/setting_share"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v1"
+        android:gravity="center_vertical"
+        android:onClick="onTabClicked"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="推荐给好友"
+            android:textSize="@dimen/courseset_bigtextsize" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/v2"
+        android:layout_below="@+id/setting_share"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:id="@+id/setting_clean"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v2"
+        android:gravity="center_vertical"
+        android:onClick="onTabClicked"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="清除缓存"
+            android:textSize="@dimen/courseset_bigtextsize" />
+        <TextView
+            android:id="@+id/cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="10KB"
+            android:textColor="#969696"
+            android:textSize="15.3sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/v3"
+        android:layout_below="@+id/setting_clean"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:id="@+id/setting_check_update"
+        android:layout_below="@+id/v3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:onClick="onTabClicked"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="检查更新"
+            android:textSize="@dimen/courseset_bigtextsize" />
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:layout_alignParentRight="true"
+            android:text="当前版本V1.0.0"
+            android:textColor="#969696"
+            android:textSize="13.5sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/v4"
+        android:layout_below="@+id/setting_check_update"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:id="@+id/setting_rule"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v4"
+        android:gravity="center_vertical"
+        android:onClick="onTabClicked"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="使用条款与隐私政策"
+            android:textSize="@dimen/courseset_bigtextsize" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/v5"
+        android:layout_below="@+id/setting_rule"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:id="@+id/setting_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v5"
+        android:gravity="center_vertical"
+        android:onClick="onTabClicked"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="关于我们"
+            android:textSize="@dimen/courseset_bigtextsize" />
+    </RelativeLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5.9dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.8dp"
+            android:layout_marginRight="14.8dp"
+            android:gravity="center"
+            android:text="天高智慧科技公司"
+            android:textColor="#787878"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14.8dp"
+            android:layout_marginRight="14.8dp"
+            android:gravity="center"
+            android:text="©2016 Tian Gao Zhi Hui company of Technology"
+            android:textColor="#969696"
+            android:textSize="10.5sp" />
+    </LinearLayout>
+ <ViewStub
+        android:id="@+id/cache_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/include_clear_cache" />
+</RelativeLayout>

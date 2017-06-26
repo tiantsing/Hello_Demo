@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_info_rule">我接受<u>服务条款与协议</u></string>
+    <string name="app_name">Hello</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">后退</string>
+    <string name="set">设置</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="course_name">课程表</string>
+    <string name="basis_set">基础设定</string>
+    <string name="current_semester">当前学期</string>
+    <string name="current_week">当前周数</string>
+    <string name="persionalized_set">个性化设置</string>
+    <string name="current_semester_num">大一 第1学期</string>
+    <string name="current_week_num">第1周</string>
+    <string name="morning_class_start_time">上午第一节开始时间</string>
+    <string name="morning_class_time">8:00</string>
+    <string name="afternoon_class_start_time">下午第一节开始时间</string>
+    <string name="afternoon_class_time">14:00</string>
+    <string name="night_class_start_time">晚上第一节开始时间</string>
+    <string name="night_class_time">19:00</string>
+    <string name="little_recess">小课间休息时间</string>
+    <string name="little_recess_time">10分钟</string>
+    <string name="big_recess">大课间休息时间</string>
+    <string name="big_recess_time">20分钟</string>
+    <string name="course_background">课表背景</string>
+    <string name="every_class_time">每节课时长</string>
+    <string name="class_time">45分钟</string>
+    <string name="lesson_infor">课程信息</string>
+    <string name="name">课程名称</string>
+    <string name="lesson_name">课程名称</string>
+    <string name="classroom">教室</string>
+    <string name="teacher">老师</string>
+    <string name="finish">完成</string>
+    <string name="lesson_number">节数</string>
+    <string name="lesson_num">周%1$s %2$d-%3$d节</string>
+    <string name="week_number">周数</string>
+    <string name="week_num">%1$d-%2$d周</string>
+    <string name="lesson_time">上课时间</string>
+    <string name="time">时间</string>
+    <string name="del_lesson">删除本节课</string>
+    <string name="change">编辑</string>
+    <string name="lesson_change">课程编辑</string>
+    <string name="add_lesson">添加课程</string>
+    <string name="hand_add_lesson">手动添加</string>
+    <string name="auto_add_lesson">自动添加</string>
+    <string name="ensure">确定</string>
+    <string name="edit_hint">(未填写)</string>
+    <string name="select_lesson_week_num">选择上课周数</string>
+    <string name="select_lesson_lesson_num">选择上课节数</string>
+    <string name="add_lesson_content">课程内容</string>
+    <string name="add_other_lesson">添加其他课程</string>
+    <string name="app_list">应用名单</string>
+    <string name="now_load">正在加载，请稍候。。。</string>
+    <string name="prompting">先学习吧</string>
+    <string name="I_Known">我知道了</string>
+    <string name="start">开始</string>
+    <string name="show_time">00时00分</string>
+    <string name="change_time_textview">修改时间</string>
+    <string name="learn_setting">学习设置</string>
+    <string name="supervise_pattern">监督模式</string>
+    <string name="app_white_list">应用白名单</string>
+    <string name="background">背景图</string>
+    <string name="supervise_pattern_explain">学习监督说明</string>
+    <string name="learn_way_explain">学习方法说明</string>
+    <string name="abandon">放弃</string>
+    <string name="keeping_time_learner">计时学习</string>
+    <string name="freedom_learner">自由学习</string>
+    <string name="tomato_learner">番茄学习</string>
+    <string name="tomato_num">第1个番茄</string>
+    <!-- 以下为添加 -->
+    <string name="register_title_text">注册</string>
+    <string name="dyz">第一周</string>
+    
+     <string name="license">
+        Copyright 2015 chenupt
+\n\n
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+\n\n
+    http://www.apache.org/licenses/LICENSE-2.0
+\n\n
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+    </string>
+    
+    
+    <string name="no_data">网络异常...</string>
+    <string name="control">管理</string>
+    <string name="group">分组</string>
+    <string name="all">全部</string>
+    
+     <string name="NoChoose">0/3</string>
+    <string name="ChooseOne">1/3</string>
+    <string name="ChooseTow">2/3</string>
+    <string name="ChooseThree">3/3</string>
+    <string name="exitHint">再按一次退出程序</string>
+    <string name="ChooseEnough">最多只可选择三个标签</string>
+    <string name="ChooseHint">请先在上一页选择标签</string>
+    <string name="basic_action_1">删除</string>
+    <string name="basic_action_2">Action_2</string>
+    <string name="basic_del">Delete</string>
+    <string name="str_orange">#fe7b27</string>
+    <string name="str_green">#3cac69</string>
+    <string name="str_red">#FF4444</string>
+    <string name="str_yellow">#FFBB33</string>
+    <string name="str_sky_blue">#33B5E5</string>
+</resources>

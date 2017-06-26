@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    tools:context=".common.FeedbackActivity" >
+    
+    <include layout="@layout/layout_title" />"
+    <EditText
+        android:id="@+id/et_message"
+        android:tag="suggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:hint="期待您的宝贵建议(1000字)"
+        android:inputType="textMultiLine"
+        android:background="@drawable/view_linnerlayout_border"
+        android:padding="5dp"
+        android:maxLength="1000"
+        android:minLines="15" />
+
+   
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/course_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+        <include 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/lock_time_control_title" />
+       
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_time_control_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/change_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28dp"
+            android:text="@string/change_time_textview"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/show_timeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/change_time"
+            android:layout_alignBottom="@+id/change_time"
+            android:layout_centerHorizontal="true"
+            android:text="00时25分"
+            android:textColor="#BDC1FF"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/start_clock"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/show_timeTv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/start"
+            android:textColor="#00ccff" />
+    </RelativeLayout>     
+</LinearLayout>

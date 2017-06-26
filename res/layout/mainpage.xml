@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0c0c0"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 下面为顶部部菜单栏 -->
+
+        <include
+            android:id="@+id/main_activity_up"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_title" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/mainpage_today_date1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="04月11日   星期一"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/mainpage_semeter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toLeftOf="@+id/mainpage_week"
+                    android:gravity="center"
+                    android:text="大三  第2学期"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/mainpage_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#9EA5D6"
+                    android:gravity="center"
+                    android:text="第7周"
+                    android:textSize="10sp" >
+                </TextView>
+            </RelativeLayout>
+            <!-- 显示今日课程 -->
+
+            <RelativeLayout
+                android:id="@+id/mfl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ListView
+                    android:id="@+id/mainpage_ListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#fff"
+                    android:cacheColorHint="#FFF4F4F4"
+                    android:divider="#fff"
+                    android:dividerHeight="1dp"
+                    android:fadingEdge="none" />
+
+                <ImageView
+                    android:id="@+id/mainPage_empty_course_today_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_treehole_empty_course_today_bg"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/mainPage_empty_course_today_bgTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="今天没课哦！"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp" >
+
+                <include layout="@layout/mainpage_function" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!--
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#fff"
+        android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tv_sms1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_second_hand_ad"
+        android:text="校园要闻"/>
+             <TextView
+                 android:id="@+id/tv_sms2"
+                android:layout_toRightOf="@id/tv_sms1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="1"
+        android:gravity="right"
+        android:drawableRight="@drawable/right"
+        android:text="more"/>
+                    
+        </LinearLayout>
+        <ListView
+        android:id="@+id/mainpage_ListView_schoolmsg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:divider="#ffdddddd"
+        android:dividerHeight="0.5dp"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+        -->
+        <!-- test  start -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/developing" />
+        <!-- test  end -->
+    </LinearLayout>
+    <!-- 下面为底部菜单栏 -->
+
+    <include
+        android:id="@+id/main_activity_down"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_bottom" />
+
+</LinearLayout>

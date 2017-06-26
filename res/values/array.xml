@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string-array name="allweeks">
+        <item>第0周</item>
+        <item>第1周</item>
+        <item>第2周</item>
+        <item>第3周</item>
+        <item>第4周</item>
+        <item>第5周</item>
+        <item>第6周</item>
+        <item>第7周</item>
+        <item>第8周</item>
+        <item>第9周</item>
+        <item>第10周</item>
+        <item>第11周</item>
+        <item>第12周</item>
+        <item>第13周</item>
+        <item>第14周</item>
+        <item>第15周</item>
+        <item>第16周</item>
+        <item>第17周</item>
+        <item>第18周</item>
+        <item>第19周</item>
+        <item>第20周</item>
+        <item>第21周</item>
+        <item>第22周</item>
+        <item>第23周</item>
+        <item>第24周</item>
+        <item>第25周</item>
+    </string-array>
+    
+    
+     <string-array name="week">
+        <item>第1周</item>
+        <item>第2周</item>
+        <item>第3周</item>
+        <item>第4周</item>
+        <item>第5周</item>
+        <item>第6周</item>
+        <item>第7周</item>
+        <item>第8周</item>
+        <item>第9周</item>
+        <item>第10周</item>
+        <item>第11周</item>
+        <item>第12周</item>
+        <item>第13周</item>
+        <item>第14周</item>
+        <item>第15周</item>
+        <item>第16周</item>
+        <item>第17周</item>
+        <item>第18周</item>
+        <item>第19周</item>
+        <item>第20周</item>
+        <item>第21周</item>
+        <item>第22周</item>
+        <item>第23周</item>
+        <item>第24周</item>
+        <item>第25周</item>
+    </string-array>
+    
+     <string-array name="semeter">
+        <item>大一 第一学期</item>
+        <item>大一 第二学期</item>
+        <item>大二 第一学期</item>
+        <item>大二 第二学期</item>
+        <item>大三 第一学期</item>
+        <item>大三 第二学期</item>
+        <item>大四 第一学期</item>
+        <item>大四 第二学期</item>
+      
+    </string-array>
+    <array name="frist_wrod">
+        <item>&amp;</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </array>
+     
+
+</resources>

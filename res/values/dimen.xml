@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="weekItemHeight">40dp</dimen>
+    <dimen name="weekItemMarTop">2dp</dimen>
+    <dimen name="MarLeft">1.2dp</dimen>
+    <dimen name="MarTop">1.2dp</dimen>
+    <dimen name="weekItemMarLeft">2dp</dimen>
+    <dimen name="screenHeight">1dp</dimen>
+    <dimen name="screenWidth">1dp</dimen>
+    <dimen name="line_height">0.5dp</dimen>
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="courseset_margin_left">10dp</dimen>
+    <dimen name="courseset_margin_top">20dp</dimen>
+    <dimen name="right">15dp</dimen>
+    <dimen name="top">15dp</dimen>
+    <dimen name="bigtextsize">18sp</dimen>
+    <dimen name="courseset_bigtextsize">16sp</dimen>
+    <dimen name="courseset_littletextsize">15sp</dimen>
+    <dimen name="dialog_lib_textsize_9">9sp</dimen>
+    <dimen name="dialog_lib_textsize_10">10sp</dimen>
+    <dimen name="dialog_lib_textsize_12">12sp</dimen>
+    <dimen name="dialog_lib_textsize_14">14sp</dimen>
+    <dimen name="dialog_lib_textsize_16">16sp</dimen>
+    <dimen name="dialog_lib_textsize_18">18sp</dimen>
+    <dimen name="dialog_lib_textsize_19">19sp</dimen>
+    <dimen name="dialog_lib_textsize_20">20sp</dimen>
+    <dimen name="dialog_lib_textsize_21">21sp</dimen>
+    <dimen name="dialog_lib_textsize_22">22sp</dimen>
+    <dimen name="dialog_lib_textsize_23">23sp</dimen>
+    <dimen name="dialog_lib_textsize_24">24sp</dimen>
+    <dimen name="dialog_lib_margin_1">1dp</dimen>
+    <dimen name="dialog_lib_margin_2">2dp</dimen>
+    <dimen name="dialog_lib_margin_3">3dp</dimen>
+    <dimen name="dialog_lib_margin_4">4dp</dimen>
+    <dimen name="dialog_lib_margin_5">5dp</dimen>
+    <dimen name="dialog_lib_margin_7">7dp</dimen>
+    <dimen name="dialog_lib_margin_9">9dp</dimen>
+    <dimen name="dialog_lib_margin_10">10dp</dimen>
+    <dimen name="dialog_lib_margin_12">12dp</dimen>
+    <dimen name="dialog_lib_margin_15">15dp</dimen>
+    <dimen name="dialog_lib_margin_20">20dp</dimen>
+    <dimen name="dialog_lib_margin_25">25dp</dimen>
+    <dimen name="dialog_lib_margin_30">30dp</dimen>
+
+</resources>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <RelativeLayout
+         android:id="@+id/message_re_parent"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+
+        <ImageView
+            android:id="@+id/msg_news_headimg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/message_head_bg"
+            android:scaleType="fitXY"
+            android:src="@drawable/h001" />
+
+        <TextView
+            android:id="@+id/msg_news_time"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="12：00"
+            android:textColor="#818181"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@id/msg_news_time"
+            android:layout_toRightOf="@id/msg_news_headimg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/msg_news_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="智慧客服"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/msg_news_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="您有新的消息。"
+                android:textColor="#818181"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+ </RelativeLayout>

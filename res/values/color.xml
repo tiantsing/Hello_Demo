@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- floating_action_button -->
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    
+    <color name="backColor">#2000</color>
+    <color name="backColor2">#B0E0E6</color>  
+   <color name="bar_color">#FFF</color>
+	 <color name="popbg_color">#49484A</color>
+	 <color name="black2">#ffeeeeee</color>
+    
+
+    <color name="black">#000000</color>
+    <color name="orange">#DD8500</color>
+    <color name="main_bg">#fff5f5f5</color>
+    <color name="cccccc">#cccccc</color>
+    <color name="c4c4c4">#c4c4c4</color>
+    <color name="d4d4d4">#d4d4d4</color>
+    <color name="ffd0d0d0">#ffd0d0d0</color>
+    <color name="blue_2257c2">#2257c2</color>
+    <color name="title_darkgray">#444444</color>
+    <color name="listview_divider">#E0E0E0</color>
+    <color name="dialog_buttom_bg">#ffe7e7e7</color>
+    <color name="black_333333">#333333</color>
+    <color name="black_444444">#444444</color>
+    <color name="blue">#4682B4</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="process">#0762B5</color>
+    <color name="ffffffff">#FFFFFFFF</color>
+    <color name="ff666666">#ff666666</color>
+    <color name="ff778799">#ff778799</color>
+    <color name="ff515c68">#ff515c68</color>
+    <color name="ff79351b">#ff79351b</color>
+    <color name="c_33000000">#33000000</color>
+    <color name="c_7fffffff">#7fffffff</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_808080">#808080</color>
+    <color name="f30">#f30</color>
+    <color name="ff687b8c">#ff687b8c</color>
+    <color name="fe8d49">#fe8d49</color>
+    <color name="selected_text">#0066cc</color>
+    <color name="classIndex">#CCCCCC</color>
+    <color name="courseTextColor">#ECECEC</color>
+    <color name="actionBarBg">#6666CC</color>
+    <color name="actionBarText">#EDEDED</color>
+    <color name="item_divider">#fafafa</color>
+    <color name="item_common_pressed">#e0e0e0</color>
+    <color name="item_common_selected">#5e5e5e</color>
+    <color name="background_common">#fafafa</color>
+    <color name="background_menu_divider">#d0d0d0</color>
+    <color name="background_menu">#e0e0e0</color>
+    <color name="font_default">#222222</color>
+    <color name="font_light">#777777</color>
+    <color name="white_light">#888888</color>
+    <color name="bac">#55000000</color>
+    <color name="map_infor_time_line">#a6f7ff</color>
+    <color name="a_z_bg">#f4f4f4</color>
+    <color name="a_z_tv">#343434</color>
+    <color name="a_z_line">#32b4e6</color>
+
+    <!-- 选择dialog -->
+    <color name="valuespicker_dialog_bg">#f5f5f5</color>
+    <color name="dialog_title">#33b5e5</color>
+    <color name="dialog_button_line">#dcdcdc</color>
+    <!-- 淡白色 -->
+    <color name="danlan">#D3D2EA</color>
+    <color name="darkorange">#20c36e</color>
+    <color name="gray">#FFDBDBDB</color>
+    <color name="red">#FF0000</color>
+    <color name="darkgray">#50808080</color>
+    <color name="green">#008000</color>
+    <!-- 绿色 -->
+    <color name="green1">#8dce3f</color>
+    <!-- 绿色 -->
+
+    <color name="lightblue">#36c77b</color>
+    <color name="transparent_gray">#8000</color>
+
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#36c77b</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#36c77b</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#36c77b</color>
+    <color name="today">#ffff3e45</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <!-- 亮灰色 -->
+    <color name="dimgray">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="dimgrey">#696969</color>
+    <!-- 暗灰色 -->
+
+    <color name="calendar_event">#999999</color>
+    <color name="dialogColor">#f0ffffff</color>
+    <color name="dialog_gray">#e6e6e6</color>
+    <color name="black1">#333333</color>
+    <color name="indexcshape0">#fe8a7f</color>
+    <color name="indexcshape1">#b9a571</color>
+    <color name="indexcshape2">#71b9a5</color>
+    <color name="indexcshape3">#719bb8</color>
+    <color name="indexcshape4">#a15679</color>
+    <color name="top_title_green">#8DCE3F</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="focus_circle_bg">#F24949</color>
+    <color name="date_1">#F24949</color>
+    <color name="date_2">#40000000</color>
+    <color name="Grey">#BEBEBE</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="gray1">#eaeaea</color>
+    <!-- 灰色 -->
+
+    <color name="header_bg">#FCFCFB</color>
+    <color name="calendar_title_bg">#E8E8E7</color>
+    <color name="calendar_text">#75B174</color>
+    <color name="calendar_class_title_bg">#F2F2F2</color>
+
+    <!-- 文字颜色 -->
+    <color name="titleTextColor">#75B174</color>
+    <!-- 深绿色 -->
+
+    <color name="textColor">#7cbd7b</color>
+    <!-- 深绿色 -->
+    <color name="textColor_g">#64a461</color>
+    <!-- 深绿色 -->
+    <color name="textColor1">#777878</color>
+    <!-- 深灰色 -->
+    <color name="textColor_black">#646262</color>
+    <!-- 黑色 -->
+    <color name="textColor_black1">#9b9999</color>
+    <color name="textColor_black2">#646464</color>
+    <!-- 浅黑色 -->
+    <color name="textColor_black3">#939493</color>
+    <color name="textColor_o">#eeb886</color>
+    <!-- 橙色 -->
+    <color name="textColor_gray">#999999</color>
+    <!-- 灰色 -->
+    <color name="textColorwhite">#f9f9f9</color>
+    <color name="week_view_black">#9db8b3</color>
+
+    <!-- 背景色 -->
+    <color name="delete_user_bg">#ff9090</color>
+    <color name="tel_phone_bg">#eceaea</color>
+    <color name="send_msg_bg">#dddddd</color>
+    <color name="sky">#0f66fe</color>
+    <color name="top_bg_color">#75B174</color>
+    <color name="teacher_info_bg">#E6E7E8</color>
+    <color name="index_bg">#E4E5E6</color>
+    <color name="teacher_index_bg">#f7f7f7</color>
+    <color name="line">#a5a5a5</color>
+    <color name="mine_bg">#f5f5f5</color>
+    <color name="milk_white">#FCFCFB</color>
+    <color name="ui_bg">#F9F9F9</color>
+    <color name="course_notes_bg">#dbe0db</color>
+    <!-- 周视图课程颜色 -->
+    <color name="week_view_gray">#8db18a</color>
+    <color name="week_view_red">#f67979</color>
+    <color name="week_view_bule">#9adbf3</color>
+    <color name="week_view_green">#89c997</color>
+    <color name="week_view_orange">#fdb680</color>
+    <color name="week_view_sky">#58dcf0</color>
+    <color name="week_view_pubple">#f0acf2</color>
+    <color name="week_view_pubple1">#b9b9f1</color>
+    <color name="week_view_text">#313334</color>
+    <color name="week_view_text_date">#abadae</color>
+    <color name="week_view_date_highted">#ac9fc5</color>
+
+</resources>

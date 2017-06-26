@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/list_course_start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:background="#ccffff"
+        android:gravity="center"
+        android:lines="1"
+        android:maxLength="5"
+        android:text="1-2" 
+        android:textColor="#3399ff"/>
+
+    <TextView
+        android:id="@+id/list_course_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:gravity="center"
+        android:background="#ccffff"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="课程名" 
+        android:textColor="#3399ff"/>
+
+    <TextView
+        android:id="@+id/list_course_position"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:gravity="center"
+        android:background="#ccffff"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="综合楼104" 
+        android:textColor="#3399ff"/>
+
+    <Button
+        android:id="@+id/signed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:background="#ccffff"
+        android:focusable="false"
+        android:text="签到" 
+        android:textColor="#3399ff"/>
+
+</LinearLayout>

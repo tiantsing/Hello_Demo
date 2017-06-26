@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/back_title" >
+
+        <include layout="@layout/layout_title" />
+     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/courseset_margin_left"
+        android:layout_marginRight="@dimen/courseset_margin_left"
+        android:layout_marginTop="@dimen/courseset_margin_top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/basis_set"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/courseset_littletextsize" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightblue" />
+
+        <RelativeLayout
+            android:id="@+id/Relativelayout_current_semester"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_selector"
+            android:clickable="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="@dimen/top"
+                android:layout_marginTop="@dimen/top"
+                android:text="@string/current_semester"
+                android:textSize="@dimen/courseset_bigtextsize" />
+
+            <TextView
+                android:id="@+id/Textview_current_semeter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/top"
+                android:layout_marginTop="@dimen/top"
+                android:text="@string/current_semester_num"
+                android:textSize="@dimen/courseset_bigtextsize" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:id="@+id/Relativelayout_current_week"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_selector"
+            android:clickable="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top"
+                android:layout_marginTop="@dimen/top"
+                android:text="@string/current_week"
+                android:textSize="@dimen/courseset_bigtextsize" />
+
+            <TextView
+                android:id="@+id/TextView_now_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/top"
+                android:layout_marginTop="@dimen/top"
+                android:text="@string/current_week_num"
+                android:textSize="@dimen/courseset_bigtextsize" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:text="@string/persionalized_set"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/courseset_littletextsize" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightblue" />
+
+        <RelativeLayout
+            android:id="@+id/Relativelayout_course_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_selector"
+            android:clickable="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top"
+                android:layout_marginTop="@dimen/top"
+                android:text="@string/course_background"
+                android:textSize="@dimen/courseset_bigtextsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/top"
+                android:layout_marginTop="@dimen/top"
+                android:text="@string/big_recess_time"
+                android:textSize="@dimen/courseset_bigtextsize" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

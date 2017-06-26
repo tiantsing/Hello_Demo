@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >        
+        <include    layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout_supervise_pattern"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/supervise_pattern"
+            android:textSize="@dimen/courseset_bigtextsize" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout_app_white_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/app_white_list"
+            android:textSize="@dimen/courseset_bigtextsize" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/background"
+            android:textSize="@dimen/courseset_bigtextsize" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout_supervise_pattern_explain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/supervise_pattern_explain"
+            android:textSize="@dimen/courseset_bigtextsize" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:id="@+id/Relativelayout_learn_way_explain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_selector"
+        android:clickable="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top"
+            android:layout_marginLeft="@dimen/top"
+            android:layout_marginTop="@dimen/top"
+            android:text="@string/learn_way_explain"
+            android:textSize="@dimen/courseset_bigtextsize" />
+    </RelativeLayout>
+
+</LinearLayout>

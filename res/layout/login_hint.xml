@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 提示新用户下一步要填写准确信息 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_login_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="注  意！"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/red"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_login_hint_tishi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_login_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="44dp"
+        android:text="    接下来的内容请认真仔细填写，填写的信息将采用加密处理存到服务器中，每人只有一次机会，已经填写则不宜更改，填写信息会与您的账号信息进行绑定，作为您使用本软件的基础。" />
+
+    <Button
+        android:id="@+id/btn_login_hint_next"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/button_bg"
+        android:text="下一步"
+        android:textColor="#ff476706"
+        android:textSize="18.0sp" />
+
+</RelativeLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/layout_title" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_main"
+        android:orientation="vertical" >
+
+     <LinearLayout
+         android:id="@+id/discover_l1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:baselineAligned="false"
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:id="@+id/discover_jiaowu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/discover_jiaowuIv"
+                    android:layout_width="76.0dip"
+                    android:layout_height="76.0dip"
+                    android:background="@drawable/discovery_jiaowu"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/discover_jiaowuIv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12.0dip"
+                    android:text="记事本"
+                    android:textColor="#ff666666"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:id="@+id/discover_tushuRl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/discover_tushuIv"
+                    android:layout_width="76.0dip"
+                    android:layout_height="76.0dip"
+                    android:background="@drawable/discovery_tushu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/discover_tushuIv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12.0dip"
+                    android:text="定时关机"
+                    android:textColor="#ff666666"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:id="@+id/discover_lostRl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/discover_lostIv"
+                    android:layout_width="76.0dip"
+                    android:layout_height="76.0dip"
+                    android:background="@drawable/discovery_lost" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/discover_lostIv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12.0dip"
+                    android:text="定时开机"
+                    android:textColor="#ff666666"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/discover_l1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:baselineAligned="false"
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:id="@+id/discover_tiaozao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/discover_tiaozaoIv"
+                    android:layout_width="76.0dip"
+                    android:layout_height="76.0dip"
+                    android:background="@drawable/discovery_tiaozao"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/discover_tiaozaoIv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12.0dip"
+                    android:text="聊天室"
+                    android:textColor="#ff666666"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:id="@+id/discover_qingongRl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/discover_qingongIv"
+                    android:layout_width="76.0dip"
+                    android:layout_height="76.0dip"
+                    android:background="@drawable/discovery_qingong" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/discover_qingongIv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12.0dip"
+                    android:text="倒计时"
+                    android:textColor="#ff666666"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:id="@+id/discover_moreRl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/discover_moreIv"
+                    android:layout_width="76.0dip"
+                    android:layout_height="76.0dip"
+                    android:background="@drawable/discovery_more" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/discover_moreIv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12.0dip"
+                    android:text="更多功能"
+                    android:textColor="#ff666666"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_bottom" />
+</LinearLayout>

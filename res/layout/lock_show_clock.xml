@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/course_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" >
+
+        <TextView
+            android:id="@+id/btn_abandon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_left"
+            android:gravity="center"
+            android:text="@string/abandon"
+            android:textColor="#ff0000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/show_learn_way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_abandon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/freedom_learner"
+            android:textColor="#0099ff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_time_control_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/show_time_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="00"
+            android:textColor="#BDC1FF"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/show_time_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/show_time_minute"
+            android:layout_alignBottom="@+id/show_time_minute"
+            android:layout_marginRight="50dp"
+            android:layout_toLeftOf="@+id/show_time_minute"
+            android:text="00"
+            android:textColor="#BDC1FF"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/show_time_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/show_time_minute"
+            android:layout_alignBottom="@+id/show_time_minute"
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/show_time_minute"
+            android:text="00"
+            android:textColor="#BDC1FF"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/show_time_minute"
+            android:text="M"
+            android:textColor="#BDC1FF"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/show_time_minute"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/show_time_minute"
+            android:text="H"
+            android:textColor="#BDC1FF"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/show_time_second"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/show_time_second"
+            android:text="S"
+            android:textColor="#BDC1FF"
+            android:textSize="15sp"
+            android:visibility="visible" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/show_time_second"
+            android:layout_alignBottom="@+id/show_time_second"
+            android:layout_alignLeft="@+id/show_time_second"
+            android:text="S"
+            android:textColor="#BDC1FF"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/show_time_second2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignLeft="@+id/textView3"
+            android:text="00"
+            android:textColor="#BDC1FF"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/show_time_minute"
+            android:layout_alignBottom="@+id/show_time_minute"
+            android:layout_toRightOf="@+id/show_time_minute2"
+            android:text="M"
+            android:textColor="#BDC1FF"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/show_time_minute2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:text="25"
+            android:textColor="#BDC1FF"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/show_time_minute"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:singleLine="true"
+            android:text="@string/tomato_num"
+            android:textColor="#ff6600"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/main_time_control_main" >
+    </LinearLayout>
+
+</LinearLayout>

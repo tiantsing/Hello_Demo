@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bg2" >
+
+        <com.profile.RoundImageView
+            android:id="@+id/iv_uimage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_normal_avatar" />
+
+        <com.profile.RoundImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_uimage"
+            android:layout_alignRight="@+id/iv_uimage"
+            android:src="@drawable/edit_user_photo" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/courseset_margin_left"
+        android:layout_marginRight="@dimen/courseset_margin_left"
+        android:layout_marginTop="@dimen/courseset_margin_top"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人信息"
+                android:textColor="#00ccff"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#00ccff" />
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/courseset_margin_top"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/image_name_1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_detail_course_teacher_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/image_name_1"
+                    android:text="真实姓名"
+                    android:textColor="#9b9b9b"
+                    android:textSize="16sp" />
+
+                 <TextView
+                    android:id="@+id/tv_name_set"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center|right"
+                    android:hint="(你的真实姓名)"
+                    android:paddingLeft="100dp"
+                    android:singleLine="true"
+                    android:textColor="#9b9b9b"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+            </LinearLayout>
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_name_2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_student_data_label_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/image_name_2"
+                    android:text="性别"
+                    android:textColor="#9b9b9b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_sex_set"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center|right"
+                    android:hint="性别"
+                    android:paddingLeft="100dp"
+                    android:singleLine="true"
+                    android:textColor="#9b9b9b"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+            </LinearLayout>
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/image_name_3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_student_data_recent_trends_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/image_name_3"
+                    android:text="学号"
+                    android:textColor="#9b9b9b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_xuehao_set"
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center|right"
+                    android:hint="学号"
+                    android:paddingLeft="100dp"
+                    android:singleLine="true"
+                    android:textColor="#9b9b9b"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+             <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+            </LinearLayout>
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/image_name_4"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_student_data_academy_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/image_name_4"
+                    android:text="学校"
+                    android:textColor="#9b9b9b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_school_set"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center|right"
+                    android:hint="学校"
+                    android:paddingLeft="100dp"
+                    android:singleLine="true"
+                    android:textColor="#9b9b9b"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+            </LinearLayout>
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/image_name_5"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_detail_course_time_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/image_name_5"
+                    android:text="学院"
+                    android:textColor="#9b9b9b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_collage_set"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center|right"
+                    android:hint="院系"
+                    android:paddingLeft="100dp"
+                    android:singleLine="true"
+                    android:textColor="#9b9b9b"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+             <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+            </LinearLayout>
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/image_name_6"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_student_data_grade_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/image_name_6"
+                    android:text="专业"
+                    android:textColor="#9b9b9b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_major_set"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center|right"
+                    android:hint="专业"
+                    android:paddingLeft="100dp"
+                    android:singleLine="true"
+                    android:textColor="#9b9b9b"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+            </LinearLayout>
+            <!-- 
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/image_name_7"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_student_data_signature_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/image_name_7"
+                    android:text="班级"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                     android:id="@+id/tv_class_set"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center|right"
+                    android:hint="班级"
+                    android:paddingLeft="200dp"
+                    android:singleLine="true"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+             <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+            </LinearLayout>
+             -->
+              <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/image_name_8"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ic_student_data_date_of_birth_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/image_name_8"
+                    android:text="入学年份"
+                    android:textColor="#9b9b9b"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_ruxue_set"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center|right"
+                    android:hint="入学年份"
+                    android:paddingLeft="100dp"
+                    android:singleLine="true"
+                    android:textColor="#9b9b9b"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c0c0c0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

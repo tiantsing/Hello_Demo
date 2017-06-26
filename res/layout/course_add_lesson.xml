@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/background_menu" >
+     <!-- 头部标题栏 -->
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_title" />
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_left"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="@dimen/margin_top"
+                        android:layout_marginTop="@dimen/margin_top"
+                        android:text="@string/add_lesson_content"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/courseset_littletextsize" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightblue" />
+
+                    <RelativeLayout
+                        android:id="@+id/add_lesson_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textview_add_lesson_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/top"
+                            android:layout_marginTop="@dimen/top"
+                            android:text="@string/lesson_name"
+                            android:textSize="@dimen/courseset_bigtextsize" />
+
+                        <EditText
+                            android:id="@+id/edit_lesson_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/textview_add_lesson_name"
+                            android:layout_alignBottom="@+id/textview_add_lesson_name"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/textview_add_lesson_name"
+                            android:background="@null"
+                            android:ems="10"
+                            android:hint="@string/edit_hint"
+                            android:textSize="@dimen/courseset_littletextsize" >
+
+                            <requestFocus />
+                        </EditText>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightblue" />
+
+                    <RelativeLayout
+                        android:id="@+id/add_lesson_teacher"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textview_add_lesson_teacher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginBottom="@dimen/top"
+                            android:layout_marginTop="@dimen/top"
+                            android:text="@string/teacher"
+                            android:textSize="@dimen/courseset_bigtextsize" />
+
+                        <EditText
+                            android:id="@+id/edit_lesson_teacher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/textview_add_lesson_teacher"
+                            android:layout_alignBottom="@+id/textview_add_lesson_teacher"
+                            android:layout_marginLeft="45dp"
+                            android:layout_toRightOf="@+id/textview_add_lesson_teacher"
+                            android:background="@null"
+                            android:ems="10"
+                            android:hint="@string/edit_hint"
+                            android:textSize="@dimen/courseset_littletextsize" >
+
+                            <requestFocus />
+                        </EditText>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightblue" />
+
+                    <RelativeLayout
+                        android:id="@+id/add_lesson_classroom"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/textview_add_lesson_classroom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginBottom="@dimen/top"
+                            android:layout_marginTop="@dimen/top"
+                            android:text="@string/classroom"
+                            android:textSize="@dimen/courseset_bigtextsize" />
+
+                        <EditText
+                            android:id="@+id/edit_lesson_classroom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/textview_add_lesson_classroom"
+                            android:layout_alignBottom="@+id/textview_add_lesson_classroom"
+                            android:layout_marginLeft="45dp"
+                            android:layout_toRightOf="@+id/textview_add_lesson_classroom"
+                            android:background="@null"
+                            android:ems="10"
+                            android:hint="@string/edit_hint"
+                            android:textSize="@dimen/courseset_littletextsize" >
+
+                            <requestFocus />
+                        </EditText>
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightblue" />
+
+                    <RelativeLayout
+                        android:id="@+id/add_lesson_lesson_number"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_selector"
+                        android:clickable="true" >
+
+                        <TextView
+                            android:id="@+id/textview_add_lesson_lesson_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/top"
+                            android:layout_marginTop="@dimen/top"
+                            android:text="@string/lesson_number"
+                            android:textSize="@dimen/courseset_bigtextsize" />
+
+                        <TextView
+                            android:id="@+id/textview_add_lesson_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/textview_add_lesson_lesson_number"
+                            android:layout_alignBottom="@+id/textview_add_lesson_lesson_number"
+                            android:layout_marginLeft="44dp"
+                            android:layout_toRightOf="@+id/textview_add_lesson_lesson_number"
+                            android:text="@string/select_lesson_lesson_num"
+                            android:textSize="@dimen/courseset_bigtextsize" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightblue" />
+
+                    <RelativeLayout
+                        android:id="@+id/add_lesson_week"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_selector"
+                        android:clickable="true" >
+
+                        <TextView
+                            android:id="@+id/textview_add_lesson_week"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/top"
+                            android:layout_marginTop="@dimen/top"
+                            android:text="@string/week_number"
+                            android:textSize="@dimen/courseset_bigtextsize" />
+
+                        <TextView
+                            android:id="@+id/textview_add_lesson_lesson_week"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/textview_add_lesson_week"
+                            android:layout_alignBottom="@+id/textview_add_lesson_week"
+                            android:layout_marginLeft="45dp"
+                            android:layout_toRightOf="@+id/textview_add_lesson_week"
+                            android:text="@string/select_lesson_week_num"
+                            android:textSize="@dimen/courseset_bigtextsize" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightblue" />
+                </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

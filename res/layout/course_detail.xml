@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/courseset_margin_left"
+        android:layout_marginRight="@dimen/courseset_margin_left"
+        android:layout_marginTop="@dimen/courseset_margin_top"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lesson_infor"
+                android:textColor="#00ccff"
+                android:textSize="@dimen/courseset_littletextsize" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#00ccff" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/courseset_margin_top" >
+
+                <ImageView
+                    android:id="@+id/image_name1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:background="@drawable/ic_detail_course_name_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_toRightOf="@id/image_name1"
+                    android:text="@string/name"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/courseset_littletextsize" />
+
+                <TextView
+                    android:id="@+id/lesson_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:text=""
+                    android:textColor="#c0c0c0"
+                    android:textSize="@dimen/courseset_bigtextsize" />
+
+                <Button
+                    android:id="@+id/change_lesson_name"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/button_bg"
+                    android:text="@string/change"
+                    android:visibility="invisible"
+                    android:textSize="@dimen/courseset_littletextsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/courseset_margin_top" >
+
+                <ImageView
+                    android:id="@+id/image_name2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:background="@drawable/ic_detail_course_classroom_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_toRightOf="@id/image_name2"
+                    android:text="@string/classroom"
+                     android:textColor="#000000"
+                    android:textSize="@dimen/courseset_littletextsize" />
+
+                <TextView
+                    android:id="@+id/classroom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:text=""
+                    android:textColor="#c0c0c0"
+                    android:textSize="@dimen/courseset_bigtextsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/courseset_margin_top" >
+
+                <ImageView
+                    android:id="@+id/image_name3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:background="@drawable/ic_detail_course_teacher_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_toRightOf="@id/image_name3"
+                    android:text="@string/teacher"
+                     android:textColor="#000000"
+                    android:textSize="@dimen/courseset_littletextsize" />
+
+                <TextView
+                    android:id="@+id/teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:text=""
+                    android:textColor="#c0c0c0"
+                    android:textSize="@dimen/courseset_bigtextsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/courseset_margin_top" >
+
+                <ImageView
+                    android:id="@+id/image_name4"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:background="@drawable/ic_detail_course_section_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_toRightOf="@id/image_name4"
+                    android:text="@string/lesson_number"
+                     android:textColor="#000000"
+                    android:textSize="@dimen/courseset_littletextsize" />
+
+                <TextView
+                    android:id="@+id/lesson_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:text="@string/lesson_num"
+                     android:textColor="#c0c0c0"
+                    android:textSize="@dimen/courseset_bigtextsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/courseset_margin_top"
+                android:layout_marginTop="@dimen/courseset_margin_top" >
+
+                <ImageView
+                    android:id="@+id/image_name5"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:background="@drawable/ic_detail_course_week_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_toRightOf="@id/image_name5"
+                    android:text="@string/week_number"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/courseset_littletextsize" />
+
+                <TextView
+                    android:id="@+id/week_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:text="@string/week_num"
+                    android:textColor="#c0c0c0"
+                    android:textSize="@dimen/courseset_bigtextsize" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lesson_time"
+                android:textColor="@color/lightblue"
+                android:textSize="@dimen/courseset_littletextsize" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightblue" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/courseset_margin_top"
+                android:layout_marginTop="@dimen/courseset_margin_top" >
+
+                <ImageView
+                    android:id="@+id/image_name6"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="@dimen/margin_left"
+                    android:background="@drawable/ic_detail_course_time_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/image_name6"
+                    android:text="@string/time"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/courseset_littletextsize" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text=""
+                    android:textColor="#c0c0c0"
+                    android:textSize="@dimen/courseset_bigtextsize" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ff0000" />
+
+            <RelativeLayout
+                android:id="@+id/Relative_del_lesson"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_selector"
+                android:clickable="true"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/image_delete_lesson"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"                                       
+                    android:background="@drawable/ic_detail_course_delete_icon" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/image_delete_lesson"
+                    android:text="@string/del_lesson"
+                    android:textColor="#ff0000"
+                    android:textSize="@dimen/courseset_bigtextsize" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
